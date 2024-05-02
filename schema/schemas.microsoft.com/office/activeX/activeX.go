@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package activeX ;import (_b "encoding/xml";_cb "fmt";_df "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/common/logger";);func (_aacf ST_Persistence )Validate ()error {return _aacf .ValidateWithPath ("")};func (_eff ST_Persistence )MarshalXML (e *_b .Encoder ,start _b .StartElement )error {return e .EncodeElement (_eff .String (),start );
+package activeX ;import (_b "encoding/xml";_cb "fmt";_df "github.com/topten1222/unioffice";_d "github.com/topten1222/unioffice/common/logger";);func (_aacf ST_Persistence )Validate ()error {return _aacf .ValidateWithPath ("")};func (_eff ST_Persistence )MarshalXML (e *_b .Encoder ,start _b .StartElement )error {return e .EncodeElement (_eff .String (),start );
 };func (_dc *CT_Picture )MarshalXML (e *_b .Encoder ,start _b .StartElement )error {if _dc .IdAttr !=nil {start .Attr =append (start .Attr ,_b .Attr {Name :_b .Name {Local :"\u0072\u003a\u0069\u0064"},Value :_cb .Sprintf ("\u0025\u0076",*_dc .IdAttr )});
 };e .EncodeToken (start );e .EncodeToken (_b .EndElement {Name :start .Name });return nil ;};
 

@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package drawing ;import (_e "github.com/unidoc/unioffice";_ge "github.com/unidoc/unioffice/color";_b "github.com/unidoc/unioffice/measurement";_c "github.com/unidoc/unioffice/schema/soo/dml";);type LineProperties struct{_gg *_c .CT_LineProperties };
+package drawing ;import (_e "github.com/topten1222/unioffice";_ge "github.com/topten1222/unioffice/color";_b "github.com/topten1222/unioffice/measurement";_c "github.com/topten1222/unioffice/schema/soo/dml";);type LineProperties struct{_gg *_c .CT_LineProperties };
 
 // SetNumbered controls if bullets are numbered or not.
 func (_bf ParagraphProperties )SetNumbered (scheme _c .ST_TextAutonumberScheme ){if scheme ==_c .ST_TextAutonumberSchemeUnset {_bf ._adf .BuAutoNum =nil ;}else {_bf ._adf .BuAutoNum =_c .NewCT_TextAutonumberBullet ();_bf ._adf .BuAutoNum .TypeAttr =scheme ;

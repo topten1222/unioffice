@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package core_properties ;import (_b "encoding/xml";_a "fmt";_g "github.com/unidoc/unioffice";_c "github.com/unidoc/unioffice/common/logger";_eg "time";);
+package core_properties ;import (_b "encoding/xml";_a "fmt";_g "github.com/topten1222/unioffice";_c "github.com/topten1222/unioffice/common/logger";_eg "time";);
 
 // ValidateWithPath validates the CT_Keyword and its children, prefixing error messages with path
 func (_bgfg *CT_Keyword )ValidateWithPath (path string )error {return nil };func NewCT_CoreProperties ()*CT_CoreProperties {_aa :=&CT_CoreProperties {};return _aa };func NewCT_Keywords ()*CT_Keywords {_eba :=&CT_Keywords {};return _eba };func (_ce *CT_CoreProperties )MarshalXML (e *_b .Encoder ,start _b .StartElement )error {e .EncodeToken (start );

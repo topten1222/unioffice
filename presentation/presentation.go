@@ -9,9 +9,9 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package presentation ;import (_ab "archive/zip";_ga "bytes";_db "encoding/xml";_bc "errors";_ed "fmt";_gd "github.com/unidoc/unioffice";_abg "github.com/unidoc/unioffice/common";_fa "github.com/unidoc/unioffice/common/logger";_gg "github.com/unidoc/unioffice/common/tempstorage";
-_fb "github.com/unidoc/unioffice/drawing";_aa "github.com/unidoc/unioffice/internal/formatutils";_f "github.com/unidoc/unioffice/internal/license";_eg "github.com/unidoc/unioffice/measurement";_ag "github.com/unidoc/unioffice/schema/soo/dml";_a "github.com/unidoc/unioffice/schema/soo/dml/chart";
-_bb "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_e "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_bd "github.com/unidoc/unioffice/schema/soo/pml";_b "github.com/unidoc/unioffice/zippkg";_ege "image";_ggf "image/jpeg";_fe "io";
+package presentation ;import (_ab "archive/zip";_ga "bytes";_db "encoding/xml";_bc "errors";_ed "fmt";_gd "github.com/topten1222/unioffice";_abg "github.com/topten1222/unioffice/common";_fa "github.com/topten1222/unioffice/common/logger";_gg "github.com/topten1222/unioffice/common/tempstorage";
+_fb "github.com/topten1222/unioffice/drawing";_aa "github.com/topten1222/unioffice/internal/formatutils";_f "github.com/topten1222/unioffice/internal/license";_eg "github.com/topten1222/unioffice/measurement";_ag "github.com/topten1222/unioffice/schema/soo/dml";_a "github.com/topten1222/unioffice/schema/soo/dml/chart";
+_bb "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";_e "github.com/topten1222/unioffice/schema/soo/pkg/relationships";_bd "github.com/topten1222/unioffice/schema/soo/pml";_b "github.com/topten1222/unioffice/zippkg";_ege "image";_ggf "image/jpeg";_fe "io";
 _da "math";_fac "os";_c "path";_abb "sort";_d "strconv";_ge "strings";);
 
 // AddImage adds an image textbox to a slide.

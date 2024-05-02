@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package word ;import (_a "encoding/xml";_ad "fmt";_c "github.com/unidoc/unioffice";_ab "strconv";);type Borderright struct{CT_Border };func (_dag *ST_VerticalAnchor )UnmarshalXMLAttr (attr _a .Attr )error {switch attr .Value {case "":*_dag =0;case "\u006d\u0061\u0072\u0067\u0069\u006e":*_dag =1;
+package word ;import (_a "encoding/xml";_ad "fmt";_c "github.com/topten1222/unioffice";_ab "strconv";);type Borderright struct{CT_Border };func (_dag *ST_VerticalAnchor )UnmarshalXMLAttr (attr _a .Attr )error {switch attr .Value {case "":*_dag =0;case "\u006d\u0061\u0072\u0067\u0069\u006e":*_dag =1;
 case "\u0070\u0061\u0067\u0065":*_dag =2;case "\u0074\u0065\u0078\u0074":*_dag =3;case "\u006c\u0069\u006e\u0065":*_dag =4;};return nil ;};
 
 // Validate validates the Bordertop and its children

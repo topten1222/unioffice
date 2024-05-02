@@ -9,8 +9,8 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package vmldrawing ;import (_ad "encoding/xml";_a "fmt";_g "github.com/unidoc/unioffice";_da "github.com/unidoc/unioffice/common/logger";_ag "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_ea "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel";
-_bg "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml";_e "strconv";_d "strings";);const (ShapeStylePositionAbsolute ="\u0061\u0062\u0073\u006f\u006c\u0075\u0074\u0065";ShapeStylePositionRelative ="\u0072\u0065\u006c\u0061\u0074\u0069\u0076\u0065";
+package vmldrawing ;import (_ad "encoding/xml";_a "fmt";_g "github.com/topten1222/unioffice";_da "github.com/topten1222/unioffice/common/logger";_ag "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";_ea "github.com/topten1222/unioffice/schema/urn/schemas_microsoft_com/office/excel";
+_bg "github.com/topten1222/unioffice/schema/urn/schemas_microsoft_com/vml";_e "strconv";_d "strings";);const (ShapeStylePositionAbsolute ="\u0061\u0062\u0073\u006f\u006c\u0075\u0074\u0065";ShapeStylePositionRelative ="\u0072\u0065\u006c\u0061\u0074\u0069\u0076\u0065";
 );
 
 // MSOPositionVerticalRelative get `mso-position-vertical-relative` attribute of shape style.

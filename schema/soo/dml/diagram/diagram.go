@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package diagram ;import (_d "encoding/xml";_f "fmt";_fd "github.com/unidoc/unioffice";_b "github.com/unidoc/unioffice/common/logger";_g "github.com/unidoc/unioffice/schema/soo/dml";_c "strconv";);func (_cefdb ST_ClrAppMethod )String ()string {switch _cefdb {case 0:return "";
+package diagram ;import (_d "encoding/xml";_f "fmt";_fd "github.com/topten1222/unioffice";_b "github.com/topten1222/unioffice/common/logger";_g "github.com/topten1222/unioffice/schema/soo/dml";_c "strconv";);func (_cefdb ST_ClrAppMethod )String ()string {switch _cefdb {case 0:return "";
 case 1:return "\u0073\u0070\u0061\u006e";case 2:return "\u0063\u0079\u0063l\u0065";case 3:return "\u0072\u0065\u0070\u0065\u0061\u0074";};return "";};func (_efbcf ST_StartingElement )MarshalXML (e *_d .Encoder ,start _d .StartElement )error {return e .EncodeElement (_efbcf .String (),start );
 };func (_gdabe *ST_ResizeHandlesStr )UnmarshalXMLAttr (attr _d .Attr )error {switch attr .Value {case "":*_gdabe =0;case "\u0065\u0078\u0061c\u0074":*_gdabe =1;case "\u0072\u0065\u006c":*_gdabe =2;};return nil ;};
 

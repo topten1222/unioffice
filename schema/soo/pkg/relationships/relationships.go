@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package relationships ;import (_eg "encoding/xml";_a "fmt";_g "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/common/logger";);func NewRelationship ()*Relationship {_ba :=&Relationship {};_ba .CT_Relationship =*NewCT_Relationship ();return _ba ;
+package relationships ;import (_eg "encoding/xml";_a "fmt";_g "github.com/topten1222/unioffice";_d "github.com/topten1222/unioffice/common/logger";);func NewRelationship ()*Relationship {_ba :=&Relationship {};_ba .CT_Relationship =*NewCT_Relationship ();return _ba ;
 };func (_ec *Relationship )MarshalXML (e *_eg .Encoder ,start _eg .StartElement )error {return _ec .CT_Relationship .MarshalXML (e ,start );};type ST_TargetMode byte ;func NewCT_Relationships ()*CT_Relationships {_df :=&CT_Relationships {};return _df };
 func NewCT_Relationship ()*CT_Relationship {_c :=&CT_Relationship {};return _c };type Relationships struct{CT_Relationships };func (_fbe *ST_TargetMode )UnmarshalXML (d *_eg .Decoder ,start _eg .StartElement )error {_bea ,_aed :=d .Token ();if _aed !=nil {return _aed ;
 };if _bg ,_ace :=_bea .(_eg .EndElement );_ace &&_bg .Name ==start .Name {*_fbe =1;return nil ;};if _ebb ,_gfb :=_bea .(_eg .CharData );!_gfb {return _a .Errorf ("\u0065\u0078\u0070\u0065\u0063\u0074\u0065\u0064\u0020\u0063\u0068a\u0072\u0020\u0064\u0061\u0074\u0061\u002c\u0020\u0067\u006ft\u0020\u0025\u0054",_bea );

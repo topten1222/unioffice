@@ -11,7 +11,7 @@
 
 // Package color provides color handling structures and functions for use across
 // all of the document types.
-package color ;import (_dd "fmt";_f "github.com/unidoc/unioffice";);var DeepPink =Color {0xFF,0x14,0x93,255,false };var LightSlateGray =Color {0x77,0x88,0x99,255,false };var AntiqueWhite =Color {0xFA,0xEB,0xD7,255,false };var Navy =Color {0x00,0x00,0x80,255,false };
+package color ;import (_dd "fmt";_f "github.com/topten1222/unioffice";);var DeepPink =Color {0xFF,0x14,0x93,255,false };var LightSlateGray =Color {0x77,0x88,0x99,255,false };var AntiqueWhite =Color {0xFA,0xEB,0xD7,255,false };var Navy =Color {0x00,0x00,0x80,255,false };
 var DarkTurquoise =Color {0x00,0xCE,0xD1,255,false };var IndianRed =Color {0xCD,0x5C,0x5C,255,false };var Green =Color {0x00,0x80,0x00,255,false };var DimGray =Color {0x69,0x69,0x69,255,false };var DarkKhaki =Color {0xBD,0xB7,0x6B,255,false };var HotPink =Color {0xFF,0x69,0xB4,255,false };
 var MidnightBlue =Color {0x19,0x19,0x70,255,false };var Violet =Color {0xEE,0x82,0xEE,255,false };var PaleTurquoise =Color {0xAF,0xEE,0xEE,255,false };var PeachPuff =Color {0xFF,0xDA,0xB9,255,false };var DarkOrange =Color {0xFF,0x8C,0x00,255,false };var Tan =Color {0xD2,0xB4,0x8C,255,false };
 var LightSkyBlue =Color {0x87,0xCE,0xFA,255,false };var Cornsilk =Color {0xFF,0xF8,0xDC,255,false };var DarkGrey =Color {0xA9,0xA9,0xA9,255,false };var PapayaWhip =Color {0xFF,0xEF,0xD5,255,false };var GreenYellow =Color {0xAD,0xFF,0x2F,255,false };var MediumAquaMarine =Color {0x66,0xCD,0xAA,255,false };

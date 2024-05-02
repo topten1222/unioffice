@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chart ;import (_g "encoding/xml";_f "fmt";_bc "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/common/logger";_db "github.com/unidoc/unioffice/schema/soo/dml";_fe "github.com/unidoc/unioffice/schema/soo/dml/chartDrawing";_e "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";
+package chart ;import (_g "encoding/xml";_f "fmt";_bc "github.com/topten1222/unioffice";_d "github.com/topten1222/unioffice/common/logger";_db "github.com/topten1222/unioffice/schema/soo/dml";_fe "github.com/topten1222/unioffice/schema/soo/dml/chartDrawing";_e "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";
 _b "regexp";_ga "strconv";);type CT_Surface3DChart struct{Wireframe *CT_Boolean ;Ser []*CT_SurfaceSer ;BandFmts *CT_BandFmts ;AxId []*CT_UnsignedInt ;ExtLst *CT_ExtensionList ;};type CT_PageMargins struct{LAttr float64 ;RAttr float64 ;TAttr float64 ;BAttr float64 ;
 HeaderAttr float64 ;FooterAttr float64 ;};
 

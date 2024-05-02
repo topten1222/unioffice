@@ -9,8 +9,8 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package vml ;import (_d "encoding/xml";_db "fmt";_dc "github.com/unidoc/unioffice";_c "github.com/unidoc/unioffice/common/logger";_gg "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_a "github.com/unidoc/unioffice/schema/soo/wml";_fa "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel";
-_de "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint";_dba "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/word";_f "strconv";);
+package vml ;import (_d "encoding/xml";_db "fmt";_dc "github.com/topten1222/unioffice";_c "github.com/topten1222/unioffice/common/logger";_gg "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";_a "github.com/topten1222/unioffice/schema/soo/wml";_fa "github.com/topten1222/unioffice/schema/urn/schemas_microsoft_com/office/excel";
+_de "github.com/topten1222/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint";_dba "github.com/topten1222/unioffice/schema/urn/schemas_microsoft_com/office/word";_f "strconv";);
 
 // Validate validates the OfcBottom and its children
 func (_afaaf *OfcBottom )Validate ()error {return _afaaf .ValidateWithPath ("\u004ff\u0063\u0042\u006f\u0074\u0074\u006fm");};func (_gcgad OfcST_BWMode )MarshalXML (e *_d .Encoder ,start _d .StartElement )error {return e .EncodeElement (_gcgad .String (),start );

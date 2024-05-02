@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package extended_properties ;import (_cb "encoding/xml";_a "github.com/unidoc/unioffice";_cg "github.com/unidoc/unioffice/common/logger";_g "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";);type CT_Properties struct{
+package extended_properties ;import (_cb "encoding/xml";_a "github.com/topten1222/unioffice";_cg "github.com/topten1222/unioffice/common/logger";_g "github.com/topten1222/unioffice/schema/soo/ofc/docPropsVTypes";);type CT_Properties struct{
 
 // Name of Document Template
 Template *string ;

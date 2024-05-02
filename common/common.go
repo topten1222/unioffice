@@ -13,9 +13,9 @@
 // OOXML document formats.
 //
 // Package common contains common properties used by the subpackages.
-package common ;import (_fa "archive/zip";_eg "bytes";_da "encoding/xml";_f "errors";_ba "fmt";_eca "github.com/unidoc/unioffice";_bc "github.com/unidoc/unioffice/common/logger";_ec "github.com/unidoc/unioffice/common/tempstorage";_ae "github.com/unidoc/unioffice/common/tempstorage/diskstore";
-_cg "github.com/unidoc/unioffice/measurement";_eae "github.com/unidoc/unioffice/schema/soo/dml";_eb "github.com/unidoc/unioffice/schema/soo/ofc/custom_properties";_bae "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";_faf "github.com/unidoc/unioffice/schema/soo/ofc/extended_properties";
-_bde "github.com/unidoc/unioffice/schema/soo/pkg/content_types";_a "github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties";_gg "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_ge "github.com/unidoc/unioffice/zippkg";_c "image";
+package common ;import (_fa "archive/zip";_eg "bytes";_da "encoding/xml";_f "errors";_ba "fmt";_eca "github.com/topten1222/unioffice";_bc "github.com/topten1222/unioffice/common/logger";_ec "github.com/topten1222/unioffice/common/tempstorage";_ae "github.com/topten1222/unioffice/common/tempstorage/diskstore";
+_cg "github.com/topten1222/unioffice/measurement";_eae "github.com/topten1222/unioffice/schema/soo/dml";_eb "github.com/topten1222/unioffice/schema/soo/ofc/custom_properties";_bae "github.com/topten1222/unioffice/schema/soo/ofc/docPropsVTypes";_faf "github.com/topten1222/unioffice/schema/soo/ofc/extended_properties";
+_bde "github.com/topten1222/unioffice/schema/soo/pkg/content_types";_a "github.com/topten1222/unioffice/schema/soo/pkg/metadata/core_properties";_gg "github.com/topten1222/unioffice/schema/soo/pkg/relationships";_ge "github.com/topten1222/unioffice/zippkg";_c "image";
 _ "image/gif";_ "image/jpeg";_ "image/png";_bd "os";_d "reflect";_cf "regexp";_dg "strconv";_daf "strings";_cd "time";);func (_cdcd CustomProperties )SetPropertyAsBool (name string ,b bool ){_dfa :=_cdcd .getNewProperty (name );_dfa .Bool =&b ;_cdcd .setOrReplaceProperty (_dfa );
 };
 
@@ -144,7 +144,7 @@ type ImageRef struct{_ebfg *DocBase ;_ded Relationships ;_bee Image ;_fff string
 func (_bab Relationships )IsEmpty ()bool {return _bab ._bcad ==nil ||len (_bab ._bcad .Relationship )==0;};
 
 // Application returns the name of the application that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/topten1222/unioffice
 func (_eba AppProperties )Application ()string {if _eba ._aec .Application !=nil {return *_eba ._aec .Application ;};return "";};func (_ffb CustomProperties )SetPropertyAsEmpty (name string ){_bbf :=_ffb .getNewProperty (name );_bbf .Empty =_bae .NewEmpty ();
 _ffb .setOrReplaceProperty (_bbf );};
 
@@ -464,7 +464,7 @@ type ContentTypes struct{_dd *_bde .Types };
 type TableCol struct{_aaa *_eae .CT_TableCol };
 
 // Company returns the name of the company that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/topten1222/unioffice
 func (_ag AppProperties )Company ()string {if _ag ._aec .Company !=nil {return *_ag ._aec .Company ;};return "";};func (_fdc CustomProperties )SetPropertyAsFiletime (name string ,filetime _cd .Time ){_ffba :=_fdc .getNewProperty (name );_ffba .Filetime =&filetime ;
 _fdc .setOrReplaceProperty (_ffba );};
 

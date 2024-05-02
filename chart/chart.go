@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chart ;import (_cf "fmt";_f "github.com/unidoc/unioffice";_cd "github.com/unidoc/unioffice/color";_fd "github.com/unidoc/unioffice/drawing";_gf "github.com/unidoc/unioffice/measurement";_d "github.com/unidoc/unioffice/schema/soo/dml";_c "github.com/unidoc/unioffice/schema/soo/dml/chart";
+package chart ;import (_cf "fmt";_f "github.com/topten1222/unioffice";_cd "github.com/topten1222/unioffice/color";_fd "github.com/topten1222/unioffice/drawing";_gf "github.com/topten1222/unioffice/measurement";_d "github.com/topten1222/unioffice/schema/soo/dml";_c "github.com/topten1222/unioffice/schema/soo/dml/chart";
 _fc "math/rand";);func MakeTitle (x *_c .CT_Title )Title {return Title {x }};func MakeSeriesAxis (x *_c .CT_SerAx )SeriesAxis {return SeriesAxis {x }};
 
 // SetHoleSize controls the hole size in the pie chart and is measured in percent.

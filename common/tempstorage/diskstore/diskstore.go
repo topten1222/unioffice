@@ -11,7 +11,7 @@
 
 // Package diskstore implements tempStorage interface
 // by using disk as a storage
-package diskstore ;import (_eg "github.com/unidoc/unioffice/common/tempstorage";_c "io/ioutil";_a "os";_e "strings";);
+package diskstore ;import (_eg "github.com/topten1222/unioffice/common/tempstorage";_c "io/ioutil";_a "os";_e "strings";);
 
 // Open opens file from disk according to a path
 func (_cb diskStorage )Open (path string )(_eg .File ,error ){return _a .OpenFile (path ,_a .O_RDWR ,0644)};type diskStorage struct{};

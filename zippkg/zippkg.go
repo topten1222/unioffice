@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package zippkg ;import (_f "archive/zip";_fd "bytes";_bf "encoding/xml";_bb "fmt";_c "github.com/unidoc/unioffice";_ed "github.com/unidoc/unioffice/algo";_a "github.com/unidoc/unioffice/common/tempstorage";_ea "github.com/unidoc/unioffice/schema/soo/pkg/relationships";
+package zippkg ;import (_f "archive/zip";_fd "bytes";_bf "encoding/xml";_bb "fmt";_c "github.com/topten1222/unioffice";_ed "github.com/topten1222/unioffice/algo";_a "github.com/topten1222/unioffice/common/tempstorage";_ea "github.com/topten1222/unioffice/schema/soo/pkg/relationships";
 _b "io";_db "path";_fe "path/filepath";_eg "sort";_ff "strings";_d "time";);
 
 // SelfClosingWriter wraps a writer and replaces XML tags of the

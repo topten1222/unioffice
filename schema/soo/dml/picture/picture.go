@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package picture ;import (_f "encoding/xml";_bg "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/common/logger";_e "github.com/unidoc/unioffice/schema/soo/dml";);
+package picture ;import (_f "encoding/xml";_bg "github.com/topten1222/unioffice";_d "github.com/topten1222/unioffice/common/logger";_e "github.com/topten1222/unioffice/schema/soo/dml";);
 
 // Validate validates the CT_Picture and its children
 func (_ae *CT_Picture )Validate ()error {return _ae .ValidateWithPath ("\u0043\u0054\u005f\u0050\u0069\u0063\u0074\u0075\u0072\u0065");};

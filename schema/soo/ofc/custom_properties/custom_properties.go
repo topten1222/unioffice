@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package custom_properties ;import (_fd "encoding/xml";_da "fmt";_ec "github.com/unidoc/unioffice";_c "github.com/unidoc/unioffice/common/logger";_fdb "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";_e "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";
+package custom_properties ;import (_fd "encoding/xml";_da "fmt";_ec "github.com/topten1222/unioffice";_c "github.com/topten1222/unioffice/common/logger";_fdb "github.com/topten1222/unioffice/schema/soo/ofc/docPropsVTypes";_e "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";
 _d "strconv";_g "time";);func NewProperties ()*Properties {_ce :=&Properties {};_ce .CT_Properties =*NewCT_Properties ();return _ce ;};func NewCT_Properties ()*CT_Properties {_a :=&CT_Properties {};return _a };type CT_Property struct{FmtidAttr string ;
 PidAttr int32 ;NameAttr *string ;LinkTargetAttr *string ;Vector *_fdb .Vector ;Array *_fdb .Array ;Blob *string ;Oblob *string ;Empty *_fdb .Empty ;Null *_fdb .Null ;I1 *int8 ;I2 *int16 ;I4 *int32 ;I8 *int64 ;Int *int32 ;Ui1 *uint8 ;Ui2 *uint16 ;Ui4 *uint32 ;
 Ui8 *uint64 ;Uint *uint32 ;R4 *float32 ;R8 *float64 ;Decimal *float64 ;Lpstr *string ;Lpwstr *string ;Bstr *string ;Date *_g .Time ;Filetime *_g .Time ;Bool *bool ;Cy *string ;Error *string ;Stream *string ;Ostream *string ;Storage *string ;Ostorage *string ;

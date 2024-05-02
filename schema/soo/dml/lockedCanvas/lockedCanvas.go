@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package lockedCanvas ;import (_b "encoding/xml";_dg "fmt";_c "github.com/unidoc/unioffice";_bc "github.com/unidoc/unioffice/schema/soo/dml";);
+package lockedCanvas ;import (_b "encoding/xml";_dg "fmt";_c "github.com/topten1222/unioffice";_bc "github.com/topten1222/unioffice/schema/soo/dml";);
 
 // ValidateWithPath validates the LockedCanvas and its children, prefixing error messages with path
 func (_eed *LockedCanvas )ValidateWithPath (path string )error {if _bf :=_eed .CT_GvmlGroupShape .ValidateWithPath (path );_bf !=nil {return _bf ;};return nil ;};func (_g *LockedCanvas )MarshalXML (e *_b .Encoder ,start _b .StartElement )error {start .Attr =append (start .Attr ,_b .Attr {Name :_b .Name {Local :"\u0078\u006d\u006cn\u0073"},Value :"h\u0074\u0074\u0070\u003a\u002f\u002f\u0073\u0063\u0068\u0065\u006d\u0061\u0073\u002e\u006f\u0070\u0065\u006e\u0078\u006d\u006c\u0066\u006f\u0072\u006d\u0061t\u0073.\u006f\u0072\u0067\u002fd\u0072\u0061w\u0069\u006e\u0067\u006d\u006c\u002f\u0032\u0030\u0030\u0036\u002f\u006c\u006f\u0063\u006b\u0065\u0064\u0043\u0061\u006e\u0076\u0061\u0073"});

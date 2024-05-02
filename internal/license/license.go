@@ -10,7 +10,7 @@
 // terms that can be accessed at https://unidoc.io/eula/
 
 package license ;import (_bg "bytes";_c "compress/gzip";_f "crypto";_gd "crypto/aes";_ag "crypto/cipher";_db "crypto/hmac";_bdc "crypto/rand";_bfg "crypto/rsa";_df "crypto/sha256";_ae "crypto/sha512";_cc "crypto/x509";_gg "encoding/base64";_cge "encoding/binary";
-_bgd "encoding/hex";_da "encoding/json";_cf "encoding/pem";_caa "errors";_bfb "fmt";_be "github.com/unidoc/unioffice/common";_dbc "github.com/unidoc/unioffice/common/logger";_d "io";_g "io/ioutil";_ea "log";_bf "net";_a "net/http";_ed "os";_ca "path/filepath";
+_bgd "encoding/hex";_da "encoding/json";_cf "encoding/pem";_caa "errors";_bfb "fmt";_be "github.com/topten1222/unioffice/common";_dbc "github.com/topten1222/unioffice/common/logger";_d "io";_g "io/ioutil";_ea "log";_bf "net";_a "net/http";_ed "os";_ca "path/filepath";
 _e "regexp";_de "sort";_bd "strings";_cg "sync";_ad "time";);type meteredClient struct{_febe string ;_fec string ;_bfc *_a .Client ;};func (_gbb *LicenseKey )ToString ()string {if _gbb ._ddc {return "M\u0065t\u0065\u0072\u0065\u0064\u0020\u0073\u0075\u0062s\u0063\u0072\u0069\u0070ti\u006f\u006e";
 };_ded :=_bfb .Sprintf ("\u004ci\u0063e\u006e\u0073\u0065\u0020\u0049\u0064\u003a\u0020\u0025\u0073\u000a",_gbb .LicenseId );_ded +=_bfb .Sprintf ("\u0043\u0075s\u0074\u006f\u006de\u0072\u0020\u0049\u0064\u003a\u0020\u0025\u0073\u000a",_gbb .CustomerId );
 _ded +=_bfb .Sprintf ("\u0043u\u0073t\u006f\u006d\u0065\u0072\u0020N\u0061\u006de\u003a\u0020\u0025\u0073\u000a",_gbb .CustomerName );_ded +=_bfb .Sprintf ("\u0054i\u0065\u0072\u003a\u0020\u0025\u0073\n",_gbb .Tier );_ded +=_bfb .Sprintf ("\u0043r\u0065a\u0074\u0065\u0064\u0020\u0041\u0074\u003a\u0020\u0025\u0073\u000a",_be .UtcTimeFormat (_gbb .CreatedAt ));

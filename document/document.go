@@ -21,10 +21,10 @@ Example:
 	run.SetText("foo")
 	doc.SaveToFile("foo.docx")
 */
-package document ;import (_cb "archive/zip";_cc "bytes";_fe "errors";_bf "fmt";_b "github.com/unidoc/unioffice";_cca "github.com/unidoc/unioffice/color";_ce "github.com/unidoc/unioffice/common";_gbg "github.com/unidoc/unioffice/common/axcontrol";_d "github.com/unidoc/unioffice/common/logger";
-_gc "github.com/unidoc/unioffice/common/tempstorage";_aa "github.com/unidoc/unioffice/internal/formatutils";_eeb "github.com/unidoc/unioffice/internal/license";_eb "github.com/unidoc/unioffice/measurement";_ea "github.com/unidoc/unioffice/schema/schemas.microsoft.com/office/activeX";
-_gdd "github.com/unidoc/unioffice/schema/soo/dml";_gf "github.com/unidoc/unioffice/schema/soo/dml/chart";_da "github.com/unidoc/unioffice/schema/soo/dml/picture";_cf "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_fed "github.com/unidoc/unioffice/schema/soo/pkg/relationships";
-_fd "github.com/unidoc/unioffice/schema/soo/wml";_gd "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml";_a "github.com/unidoc/unioffice/vmldrawing";_ag "github.com/unidoc/unioffice/zippkg";_gg "image";_gb "image/jpeg";_f "io";_ee "math/rand";
+package document ;import (_cb "archive/zip";_cc "bytes";_fe "errors";_bf "fmt";_b "github.com/topten1222/unioffice";_cca "github.com/topten1222/unioffice/color";_ce "github.com/topten1222/unioffice/common";_gbg "github.com/topten1222/unioffice/common/axcontrol";_d "github.com/topten1222/unioffice/common/logger";
+_gc "github.com/topten1222/unioffice/common/tempstorage";_aa "github.com/topten1222/unioffice/internal/formatutils";_eeb "github.com/topten1222/unioffice/internal/license";_eb "github.com/topten1222/unioffice/measurement";_ea "github.com/topten1222/unioffice/schema/schemas.microsoft.com/office/activeX";
+_gdd "github.com/topten1222/unioffice/schema/soo/dml";_gf "github.com/topten1222/unioffice/schema/soo/dml/chart";_da "github.com/topten1222/unioffice/schema/soo/dml/picture";_cf "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";_fed "github.com/topten1222/unioffice/schema/soo/pkg/relationships";
+_fd "github.com/topten1222/unioffice/schema/soo/wml";_gd "github.com/topten1222/unioffice/schema/urn/schemas_microsoft_com/vml";_a "github.com/topten1222/unioffice/vmldrawing";_ag "github.com/topten1222/unioffice/zippkg";_gg "image";_gb "image/jpeg";_f "io";_ee "math/rand";
 _bbc "os";_bb "path/filepath";_c "regexp";_g "strings";_bg "unicode";);func (_dbf *Document )validateBookmarks ()error {_ddde :=make (map[string ]struct{});for _ ,_egeef :=range _dbf .Bookmarks (){if _ ,_eag :=_ddde [_egeef .Name ()];_eag {return _bf .Errorf ("d\u0075\u0070\u006c\u0069\u0063\u0061t\u0065\u0020\u0062\u006f\u006f\u006b\u006d\u0061\u0072k\u0020\u0025\u0073 \u0066o\u0075\u006e\u0064",_egeef .Name ());
 };_ddde [_egeef .Name ()]=struct{}{};};return nil ;};
 
@@ -831,7 +831,7 @@ type Footer struct{_cdbe *Document ;_eagc *_fd .Ftr ;};func (_ebgd Footnote )con
 };return _bddb ;};
 
 // SetConformance sets conformance attribute of the document
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_fea Document )SetConformance (conformanceAttr _cf .ST_ConformanceClass ){_fea ._eba .ConformanceAttr =conformanceAttr ;};
 
@@ -1917,7 +1917,7 @@ func (_acde *Nodes )FindNodeByRegexp (r *_c .Regexp )[]Node {_ccbef :=[]Node {};
 func (_gdcba RunProperties )SetOutline (b bool ){if !b {_gdcba ._cdeef .Outline =nil ;}else {_gdcba ._cdeef .Outline =_fd .NewCT_OnOff ();};};
 
 // SetStrict is a shortcut for document.SetConformance,
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_bgfd Document )SetStrict (strict bool ){if strict {_bgfd ._eba .ConformanceAttr =_cf .ST_ConformanceClassStrict ;}else {_bgfd ._eba .ConformanceAttr =_cf .ST_ConformanceClassTransitional ;};};
 

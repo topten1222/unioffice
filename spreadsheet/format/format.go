@@ -26,7 +26,7 @@
 // - "1 23/100" with fornat "0 0/100"
 // - "1.23E+00" with format "0.00E+00"
 // - "29:37:41s" with format `[h]:mm:ss"s"`
-package format ;import (_ca "bytes";_a "fmt";_f "github.com/unidoc/unioffice/common/logger";_b "io";_e "math";_bb "strconv";_d "strings";_cc "time";);type Lexer struct{_dbd Format ;_bbf []Format ;};const _ggfa int =-1;func _ace (_eed float64 )string {_ba :=_bb .FormatFloat (_eed ,'E',-1,64);
+package format ;import (_ca "bytes";_a "fmt";_f "github.com/topten1222/unioffice/common/logger";_b "io";_e "math";_bb "strconv";_d "strings";_cc "time";);type Lexer struct{_dbd Format ;_bbf []Format ;};const _ggfa int =-1;func _ace (_eed float64 )string {_ba :=_bb .FormatFloat (_eed ,'E',-1,64);
 _dgba :=_bb .FormatFloat (_eed ,'E',5,64);if len (_ba )< len (_dgba ){return _bb .FormatFloat (_eed ,'E',2,64);};return _dgba ;};func _ae (_bfa ,_fag float64 ,_dfg Format )[]byte {if len (_dfg .Whole )==0{return nil ;};_afe :=_cc .Date (1899,12,30,0,0,0,0,_cc .UTC );
 _abb :=_afe .Add (_cc .Duration (_fag *float64 (24*_cc .Hour )));_abb =_gec (_abb );_dgf :=_bb .AppendFloat (nil ,_bfa ,'f',-1,64);_cac :=make ([]byte ,0,len (_dgf ));_dgc :=0;_cfe :=1;_ea :for _bba :=len (_dfg .Whole )-1;_bba >=0;_bba --{_agc :=len (_dgf )-1-_dgc ;
 _ccac :=_dfg .Whole [_bba ];switch _ccac .Type {case FmtTypeDigit :if _agc >=0{_cac =append (_cac ,_dgf [_agc ]);_dgc ++;_cfe =_bba ;}else {_cac =append (_cac ,'0');};case FmtTypeDigitOpt :if _agc >=0{_cac =append (_cac ,_dgf [_agc ]);_dgc ++;_cfe =_bba ;

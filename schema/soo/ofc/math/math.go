@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package math ;import (_dd "encoding/xml";_e "fmt";_b "github.com/unidoc/unioffice";_g "github.com/unidoc/unioffice/common/logger";_ab "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_a "strconv";);func (_def *CT_GroupChr )MarshalXML (e *_dd .Encoder ,start _dd .StartElement )error {e .EncodeToken (start );
+package math ;import (_dd "encoding/xml";_e "fmt";_b "github.com/topten1222/unioffice";_g "github.com/topten1222/unioffice/common/logger";_ab "github.com/topten1222/unioffice/schema/soo/ofc/sharedTypes";_a "strconv";);func (_def *CT_GroupChr )MarshalXML (e *_dd .Encoder ,start _dd .StartElement )error {e .EncodeToken (start );
 if _def .GroupChrPr !=nil {_effc :=_dd .StartElement {Name :_dd .Name {Local :"\u006d\u003a\u0067r\u006f\u0075\u0070\u0043\u0068\u0072\u0050\u0072"}};e .EncodeElement (_def .GroupChrPr ,_effc );};_acb :=_dd .StartElement {Name :_dd .Name {Local :"\u006d\u003a\u0065"}};
 e .EncodeElement (_def .E ,_acb );e .EncodeToken (_dd .EndElement {Name :start .Name });return nil ;};func (_egfb *CT_PhantPr )MarshalXML (e *_dd .Encoder ,start _dd .StartElement )error {e .EncodeToken (start );if _egfb .Show !=nil {_befb :=_dd .StartElement {Name :_dd .Name {Local :"\u006d\u003a\u0073\u0068\u006f\u0077"}};
 e .EncodeElement (_egfb .Show ,_befb );};if _egfb .ZeroWid !=nil {_dddgd :=_dd .StartElement {Name :_dd .Name {Local :"\u006d:\u007a\u0065\u0072\u006f\u0057\u0069d"}};e .EncodeElement (_egfb .ZeroWid ,_dddgd );};if _egfb .ZeroAsc !=nil {_cgeg :=_dd .StartElement {Name :_dd .Name {Local :"\u006d:\u007a\u0065\u0072\u006f\u0041\u0073c"}};

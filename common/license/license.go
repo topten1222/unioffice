@@ -11,7 +11,7 @@
 
 // Package license helps manage commercial licenses and check if they
 // are valid for the version of UniOffice used.
-package license ;import _g "github.com/unidoc/unioffice/internal/license";
+package license ;import _g "github.com/topten1222/unioffice/internal/license";
 
 // SetLicenseKey sets and validates the license key.
 func SetLicenseKey (content string ,customerName string )error {return _g .SetLicenseKey (content ,customerName );};
